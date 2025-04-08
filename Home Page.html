@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juice Company</title>
+    <!-- Link to Google Fonts for nicer fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Basic CSS styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7fdf7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8cc63f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .juice-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .juice-item img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .juice-item h3 {
+            margin: 15px 0 10px;
+            color: #8cc63f;
+        }
+        .juice-item p {
+            font-size: 16px;
+        }
+        footer {
+            background-color: #ececec;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+        @media (min-width: 600px) {
+            .juice-item {
+                flex-direction: row;
+                text-align: left;
+            }
+            .juice-item img {
+                margin-right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Juice Company</h1>
+        <p>Fresh, Healthy, Delicious</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- Juice Item 1 -->
+        <div class="juice-item">
+            <img src="images/376-gentle-green.jpg" alt="Gentle Green Juice">
+            <div>
+                <h3>Gentle Green</h3>
+                <p>Kale, Spinach, Cucumber, Grapefruit, Apple</p>
+            </div>
+        </div>
+
+        <!-- Juice Item 2 -->
+        <div class="juice-item">
+            <img src="images/377-citrus-fire.jpg" alt="Citrus Fire Juice">
+            <div>
+                <h3>Citrus Fire</h3>
+                <p>Orange, Grapefruit, Ginger, Lemon, Cayenne Pepper</p>
+            </div>
+        </div>
+
+        <!-- Juice Item 3 -->
+        <div class="juice-item">
+            <img src="images/386-rinse-rebeet.jpg" alt="Rinse & Re-Beet Juice">
+            <div>
+                <h3>Rinse & Re-Beet</h3>
+                <p>Beet, Carrot, Cucumber, Celery, Lemon</p>
+            </div>
+        </div>
+
+        <!-- Juice Item 4 -->
+        <div class="juice-item">
+            <img src="images/398-turmeric-tonic.jpg" alt="Turmeric Tonic Juice">
+            <div>
+                <h3>Turmeric Tonic</h3>
+                <p>Turmeric, Lime, Maple Syrup</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Visit us at 1000 Main Street | Open daily from 6am - 6pm</p>
+    </footer>
+
+</body>
+</html>
