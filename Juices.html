@@ -2,12 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juice Company</title>
-    <!-- Link to Google Fonts for nicer fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Juices - The Juice Laundry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <style>
-        /* Basic CSS styling */
         body {
             font-family: 'Poppins', sans-serif;
             background-color: #f7fdf7;
@@ -20,6 +17,12 @@
             color: white;
             padding: 20px;
             text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
         }
         .container {
             max-width: 1000px;
@@ -60,60 +63,70 @@
                 margin-right: 20px;
             }
         }
+        /* Subtle Hover Effects */
+nav a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+img:hover, .placeholder:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
     </style>
 </head>
 <body>
 
-    <!-- Header Section -->
     <header>
-        <h1>Juice Company</h1>
-        <p>Fresh, Healthy, Delicious</p>
+        <h1>Juices</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="juices.html">Juices</a> |
+            <a href="smoothies.html">Smoothies</a> |
+            <a href="boosters.html">Boosters</a> |
+            <a href="acai-bowls.html">Acai Bowls & More</a>
+            | <a href="contact.html">Contact Us</a>
+        </nav>
     </header>
 
-    <!-- Main Content -->
     <div class="container">
 
-        <!-- Juice Item 1 -->
         <div class="juice-item">
-            <img src="images/376-gentle-green.jpg" alt="Gentle Green Juice">
+            <img src="images/gentle-green.jpg" alt="Gentle Green Juice">
             <div>
-                <h3>Gentle Green</h3>
+                <h3>Gentle Green ($7.50)</h3>
                 <p>Kale, Spinach, Cucumber, Grapefruit, Apple</p>
             </div>
         </div>
 
-        <!-- Juice Item 2 -->
         <div class="juice-item">
-            <img src="images/377-citrus-fire.jpg" alt="Citrus Fire Juice">
+            <img src="images/citrus-fire.jpg" alt="Citrus Fire Juice">
             <div>
-                <h3>Citrus Fire</h3>
+                <h3>Citrus Fire ($7.50)</h3>
                 <p>Orange, Grapefruit, Ginger, Lemon, Cayenne Pepper</p>
             </div>
         </div>
 
-        <!-- Juice Item 3 -->
         <div class="juice-item">
-            <img src="images/386-rinse-rebeet.jpg" alt="Rinse & Re-Beet Juice">
+            <img src="images/rinse-rebeet.jpg" alt="Rinse & Re-Beet Juice">
             <div>
-                <h3>Rinse & Re-Beet</h3>
+                <h3>Rinse & Re-Beet ($7.50)</h3>
                 <p>Beet, Carrot, Cucumber, Celery, Lemon</p>
             </div>
         </div>
 
-        <!-- Juice Item 4 -->
         <div class="juice-item">
-            <img src="images/398-turmeric-tonic.jpg" alt="Turmeric Tonic Juice">
+            <img src="images/turmeric-tonic.jpg" alt="Turmeric Tonic Juice">
             <div>
-                <h3>Turmeric Tonic</h3>
+                <h3>Turmeric Tonic ($6.50)</h3>
                 <p>Turmeric, Lime, Maple Syrup</p>
             </div>
         </div>
 
     </div>
 
-    <!-- Footer Section -->
     <footer>
-        <p>Visit us at 1000 Main Street | Open daily from 6am - 6pm</p>
+        <p>The Juice Laundry © 2025</p>
     </footer>
 
 </body>
